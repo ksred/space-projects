@@ -1,0 +1,18 @@
+/* Palette: http://www.colourlovers.com/palette/56122/Sweet_Lolly */
+.task {
+	padding: 20px;
+	border: 1px dashed #CCC;
+	border-radius: 10px;
+}
+
+.task[data-done="0"] {
+	/*background-color: rgba(250,190,40,0.6);*/
+}
+
+.task[data-done="1"] {
+	background-color: rgba(0,193,118,0.6);
+}
+.mark-done:focus, .mark-done:hover {
+	color: #CCC;
+	border: none;
+}
