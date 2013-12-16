@@ -1,6 +1,6 @@
 <? $this->load->view('_template/header'); ?>
 
-<div class="row">
+<div class="col-lg-12">
 	<form role="form" action="<?= BASE_URL ?>/projects/add_post" method="post">
 		<div class="form-group">
 			<label for="project-title">Project title</label>

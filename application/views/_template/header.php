@@ -23,4 +23,4 @@
         <?php $this->load->view("_template/nav"); ?>
     </header>
     <hr />
-    <div class="row col-lg-12">
+    <div class="col-lg-12">

@@ -1,6 +1,6 @@
 <? $this->load->view('_template/header'); ?>
 
-<div class="row">
+<div class="col-lg-12">
 	<form role="form" action="<?= BASE_URL ?>/tasks/add_post" method="post" id="add-task-form">
 		<button class="btn btn-default add-task">Add another task</button>
 		<div class="form-group">
