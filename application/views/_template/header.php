@@ -19,6 +19,11 @@
 
   <body>
     <div class="container">
+    <div class="about">
+    	<p><strong>Proof of concept by Kyle Redelinghuys</strong></p>
+    	<p>Find out more about me: <a href="http://ksred.me" target="_blank">ksred.me</a></p>
+    	<p>I also blog: <a href="http://ksred.co" target="_blank">ksred.co</a></p>
+    </div>
     <header class="col-lg-12">
         <?php $this->load->view("_template/nav"); ?>
     </header>
