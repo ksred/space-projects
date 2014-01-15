@@ -82,7 +82,7 @@ $(document).ready( function() {
 				}); 
 			});//end each project
 		}
-	}, 5000); //Set this timeout at 5s for now
+	}, 1000); //Set this timeout at 1s for demo
 
 	function getProgress () {
 		var totalTasks = $('.task').length;

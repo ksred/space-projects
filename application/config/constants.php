@@ -42,6 +42,7 @@ switch ($env) {
 		define('BASE_URL',		'http://spacex.local/');
 	break;
 	default:
+		define('BASE_URL',		'http://spacex.ksred.me/');
 	break;
 }
 
